@@ -1,0 +1,58 @@
+.card2 {
+  display: flex;
+  align-items: flex-start;
+  width: 312px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+}
+.contents {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.heading {
+  color: var(--Tertiary-Color, #161e54);
+  font-feature-settings: "salt" on, "liga" off;
+
+  /* Title Medium */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+  width: 166px;
+}
+
+.men,
+.women {
+  color: var(--Primary-Subtitle-Color, #686868);
+  font-feature-settings: "salt" on, "liga" off;
+
+  /* Body Small */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+
+Graph {
+  width: 114.5px;
+  height: 69px;
+  flex-shrink: 0;
+  fill: linear-gradient(148deg, #ff5151 -3.36%, rgba(255, 255, 255, 0) 57.39%);
+}
+
+.details {
+  color: var(--Secondary-Title-Color, #303030);
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 200% */
+}

@@ -1,0 +1,35 @@
+.App {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Sidebar and main content */
+  height: 100vh; /* Full height */
+  grid-column-gap: 30px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr; /* Navbar and main content */
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Left and right sections */
+  grid-column-gap: 30px;
+}
+
+.left {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.right {
+  grid-column: 2; /* Right section */
+
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Add styles for Sidebar, Navbar, Dashboard, Announcements, and Recent as needed */
