@@ -32,8 +32,13 @@
 
 .card1 h2 {
   margin-bottom: 10px;
+  margin-left: 0px;
 }
 
 .content {
   padding: 20px;
+}
+
+.details {
+  font-size: small;
 }

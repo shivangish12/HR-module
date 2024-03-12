@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Card2.module.css";
-import { ReactComponent as Graph } from "../assets/Vector 3.svg";
+import { ReactComponent as Graph } from "../assets/Frame 52.svg";
 
 const Card2 = ({ heading, number, men, women, details }) => {
   return (
@@ -14,7 +14,6 @@ const Card2 = ({ heading, number, men, women, details }) => {
         </div>
         <div className={styles.right}>
           <Graph />
-          <p className={styles.details}>{details}</p>
         </div>
       </div>
     </div>

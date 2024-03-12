@@ -24,7 +24,7 @@
   padding: 24px;
 }
 
-p {
+.details p {
   color: #fff;
   font-feature-settings: "salt" on, "liga" off;
 
@@ -82,4 +82,17 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.schedule p {
+  color: #fff;
+  font-feature-settings: "salt" on, "liga" off;
+
+  /* Subtitle Small */
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  padding-left: 24px;
 }
